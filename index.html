@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo" >
+      <img src="images/logo.svg" alt="">
+    </div>
+    <section>
+      
+      <div class="main">
+        <div class="tip-div">
+          <label class="tip-label" for="">Bill</label>
+          <div class="form-control form-tip">
+            <img class="sm-img" src="images/icon-dollar.svg" alt="" />
+            <input
+              type="number"
+              class="display"
+              name="bill"
+              id="bill"
+              placeholder="0.0" 
+            />
+          </div>
+          <label class="tip-label" for="">Select Tip %</label>
+          <div class="form-control btn-con">
+            <button class="selt-tip active" id="five_bill">5%</button>
+            <button class="selt-tip" id="ten_bill">10%</button>
+            <button class="selt-tip" id="oneFive_bill">15%</button>
+            <button class="selt-tip" id="twoFive_bill">25%</button>
+            <button class="selt-tip" id="fiveZero_bill">50%</button>
+            <input
+              type="number"
+              class="custom"
+              name=""
+              id=""
+              placeholder="Custom"
+            />
+          </div>
+          <div class="label-flex flex">
+            <label class="tip-label" for="">Number of People</label>
+            <label class="tip-label err-label active" for="" id="label_err">Can`t be zero</label>
+          </div>
+          <div class="form-control form-tip">
+            <img class="sm-img" src="images/icon-person.svg" alt="" />
+            <input
+              type="number"
+              class="display number"
+              name=""
+              id="people"
+              placeholder="0.0"
+            />
+          </div>
+        </div>
+
+        <div class="result-div">
+          <div class="display-1">
+            <div class="info">
+              <h1>Tip Amount</h1>
+              <span>/ person</span>
+            </div>
+            <label class="tip-amnt" id="tip_amnt">$0.00</label>
+          </div>
+          <div class="display-2">
+            <div class="info">
+              <h1>Total</h1>
+              <span>/ person</span>
+            </div>
+            <label class="tip-total" id="tip_total">$0.00</label>
+          </div>
+
+          <button class="btn-reset">RESET</button>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
