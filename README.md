@@ -19,8 +19,8 @@ This is a solution to the [Tip calculator Challenge on Frontend Mentor](https://
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Hardy101/tipcalculator)
-- Live Site URL: [Add live site URL here](https://hardy101.github.io/tipcalculator/)
+- Solution URL: [Solution URL here](https://github.com/Hardy101/tipcalculator)
+- Live Site URL: [Live site URL here](https://hardy101.github.io/tipcalculator/)
 
 ## My process
 
