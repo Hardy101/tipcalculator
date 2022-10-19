@@ -63,5 +63,5 @@ Completing this project made me realise the importance of learning CSS Grids, be
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Hardy101)
-- Twitter - [@yourusername](https://twitter.com/EghosaOrdia)
+- Frontend Mentor - [@Hardy101](https://www.frontendmentor.io/profile/Hardy101)
+- Twitter - [@EghosaOrdia](https://twitter.com/EghosaOrdia)
